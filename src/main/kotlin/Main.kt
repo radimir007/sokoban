@@ -8,11 +8,14 @@ fun main() {
     println("|     Sokoban v2023.12     |")
     println("|                          |")
     println("----------------------------")
+    println("W, A, S, D to move, R to reset.")
+    println()
     println("Press enter to start!")
     readln()
 
     while (levelNumber <= 5) {
         println("-> Level $levelNumber")
+        println("=============")
         val level = Level(levelNumber)
         var gameOver = false
 
