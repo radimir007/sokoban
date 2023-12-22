@@ -8,6 +8,8 @@ fun main() {
     println("|     Sokoban v2023.12     |")
     println("|                          |")
     println("----------------------------")
+    println("W, A, S, D to move, R to reset.")
+    println()
     println("Press enter to start!")
     readln()
 
